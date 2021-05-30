@@ -11,6 +11,9 @@ Scala version: 2.11.8.
 
 Then, LEK-NN and GEK-NN are run on a supercomputer cluster named Piz Daint from the Swiss National Supercomputing Centre. The compute node type of Piz Daint is Cray XC50 and the nodes are connected by a high-bandwidth network. The CPU specifications of each node are Intel Xeon E5 2690 v3 @ 2.60GHz 12 cores 64GB RAM. The Spark version is Spark/2.4.7-CrayGNU-20.11-Hadoop-2.7.
 
+
+
+
 How to use
 Pre-requiriments and software version
 The following software have to get installed:
@@ -19,8 +22,11 @@ Scala. Version 2.11.8
 Spark. Version 2.4.3/2.4.7-CrayGNU-20.11-Hadoop-2.7
 JVM. Java Virtual Machine. Version 1.8.0 because Scala run over it.
 
+
+
+
 How to run
-We package our code into two .jar files and the corresponding .slurm files is the command to run it. For example:
+We package our code into two .jar files and the corresponding .slurm files are the commands to run them. For example:
 
 #!/bin/bash
 
