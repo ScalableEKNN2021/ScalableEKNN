@@ -20,7 +20,11 @@ Then, LEK-NN and GEK-NN are run on a supercomputer cluster named Piz Daint from 
 
 ## Requirements
 
+For a single server, please install jdk-8u221-windows-x64, scala-2.11.8, hadoop-2.7.7, spark-2.4.3-bin-hadoop2.7, IDEAIC-2019.2.3 and configure the corresponding environment variables.
+
+
 For a cluster, please use Spark. Version 2.4.3/2.4.7-CrayGNU-20.11-Hadoop-2.7.
+
 
 ## Usage
 
