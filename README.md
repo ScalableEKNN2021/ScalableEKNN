@@ -1,5 +1,7 @@
 # Scalable Evidential K-nearest Neighbor Classification for Big Data
 
+1
+t11111E
 Two scalable EK-NN classifiers: Local approxiamate EK-NN and Global exact EK-NN.
 We ran two distributed version of evidential K nearest neighbor (EK-NN) algorithms, respectively named as Local approximate EK-NN (LEK-NN) and Global exact EK-NN (GEK-NN), that is scaled up under Apache Spark. Our codes are written in Scala 2.11.8 and our experiments are carried on a single server and a supercomputer cluster. 
 
